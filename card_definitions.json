@@ -1,0 +1,112 @@
+{
+  "cards": {
+    "bang": {
+      "name": "BANG!",
+      "keywords": ["bang", "weaponRange"],
+      "states": ["onTurn", "duel", "indians"]
+    },
+    "missed": {
+      "name" : "Mancato!",
+      "keywords": ["missed"],
+      "states": ["bang"]
+    },
+    "duel": {
+      "name": "Duello",
+      "keywords": ["duel"],
+      "states": ["onTurn"]
+    },
+    "wellsFargo": {
+      "name": "Wells Fargo",
+      "keywords": ["draw", "draw", "draw"],
+      "states": ["onTurn"]
+    },
+    "stagecoach": {
+      "name": "Diligenza",
+      "keywords": ["draw", "draw"],
+      "states": ["onTurn"]
+    },
+    "dynamite": {
+      "name": "Dinamite",
+      "keywords": ["self"],
+      "state": ["onTurn"]
+    },
+    "appaloosa": {
+      "name": "Appaloosa",
+      "keywords": ["self", "appaloosa"],
+      "state": ["onTurn"]
+    },
+    "horse": {
+      "name": "Cavallo",
+      "keywords": ["self", "distance"],
+      "state": ["onTurn"]
+    },
+    "saloon": {
+      "name": "Saloon",
+      "keywords": ["heal", "global", "heal"],
+      "state": ["onTurn", "lastLife"]
+    },
+    "volcanic": {
+      "name": "Volcanic",
+      "keywords": ["weapon", "self", "volcanic"],
+      "state": ["onTurn"]
+    },
+    "schofield": {
+      "name": "Schofield",
+      "keywords": ["weapon", "self", "range"],
+      "state": ["onTurn"]
+    },
+    "remington": {
+      "name": "Remington",
+      "keywords": ["weapon", "self", "range", "range"],
+      "state": ["onTurn"]
+    },
+    "carabine": {
+      "name": "Rev. Carabine",
+      "keywords": ["weapon", "self", "range", "range", "range"],
+      "state": ["onTurn"]
+    },
+    "winchester": {
+      "name": "Winchester",
+      "keywords": ["weapon", "self", "range", "range", "range", "range"],
+      "state": ["onTurn"]
+    },
+    "prison": {
+      "name": "Prigione",
+      "keywords": ["table", "global", "range", "prison"],
+      "state": ["onTurn"]
+    },
+    "gatling": {
+      "name": "Gatling",
+      "keywords": ["global", "bang"],
+      "state": ["onTurn"]
+    },
+    "barrel": {
+      "name": "Barile",
+      "keywords": ["self", "barrel"],
+      "state": ["onTurn"]
+    },
+    "indiani": {
+      "name": "Injuns",
+      "keywords": ["global", "indians"],
+      "state": ["onTurn"]
+    },
+    "mistress": {
+      "name": "Cat Balou",
+      "keywords": ["global", "remove"],
+      "state": ["onTurn"]
+    },
+    "panic": {
+      "name": "Panico!",
+      "keywords": ["range", "panic"],
+      "state": ["onTurn"]
+    },
+    "beer": {
+      "name": "Birra",
+      "keywords": ["self", "heal"],
+      "state": ["onTurn", "lastLife"]
+    },
+    "emporio":{
+      "name": "todo"
+    }
+  }
+}
